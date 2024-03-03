@@ -1,0 +1,161 @@
+
+.contact {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.contact-boxn {
+  display: flex;
+  margin-top: 50px;
+}
+
+.contact-tleft {
+  background: #6FEDFE;
+  flex-basis: 50%;
+  padding: 40px;
+}
+
+.contact-tleft a {
+  color: rgb(122, 45, 45);
+  font-weight: bold;
+}
+
+.contact-tleft a:hover {
+  color: #0B1E3A;
+}
+
+.contact-tright {
+  flex-basis: 50%;
+  padding: 40px;
+  background: #ecfafc;
+
+}
+
+.contact-tright p {
+  margin-bottom: 20px;
+  width: 65%;
+}
+
+.contact h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact h3 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+
+
+.contact h4 {
+  margin-top: 10px;
+}
+
+.contact-boxt {
+  margin-top: 80px;
+  display: flex;
+}
+
+
+.contact-bleft {
+  background: #6FEDFE;
+  flex-basis: 50%;
+  padding: 40px;
+}
+
+.input-row .input-group {
+  flex-basis: 50%;
+
+}
+
+input {
+  outline: none;
+  width: 100%;
+  border: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #6f6f6f;
+}
+
+
+textarea {
+  outline: none;
+  width: 100%;
+  border: none;
+  padding-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #0B1E3A;
+}
+
+.submit-btn {
+  width: 80px;
+  background: #FFD642;
+  color: #0B1E3A;
+  outline: none;
+  border-radius: 30px;
+  height: 30px;
+  margin: 20px;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid #0B1E3A;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.contact-bright {
+  flex-basis: 50%;
+  padding: 40px;
+  background: #ecfafc;
+
+}
+
+.contact-bright p {
+  margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  /* Styles for small devices */
+  .contact {
+    width: 90%;
+    margin: 50px auto;
+
+  }
+
+  .contact h1 {
+    font-size: 24px;
+  }
+
+
+  .contact-boxn, .contact-boxt {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .contact-tleft {
+    padding: 20px 40px 40px;
+  }
+
+  .submit-btn {
+    height: 30px;
+  }
+
+  .contact h3 {
+    font-size: 18px;
+
+  }
+
+  .contact-tright p {
+    width: 100%;
+  }
+
+}

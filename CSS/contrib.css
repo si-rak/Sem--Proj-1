@@ -1,0 +1,357 @@
+
+.contrib {
+  width: 80%;
+  margin: 80px auto;
+}
+
+.contrib p {
+  font-weight: 400;
+}
+
+.contrib-text h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.contrib-text p {
+  width: 70%;
+  padding-top: 10px;
+  text-align: center;
+  margin-left: 15%;
+}
+
+.contrib-bxn {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.contrib-bxn img {
+  width: 60%;
+  height: 50%;
+  border-radius: 6%;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.imp-hd {
+  text-align: center;
+  margin-top: 130px;
+  font-size: 34px;
+}
+
+.contrib-bxt {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.contrib-bxt h4 {
+  padding-bottom: 10px;
+}
+
+.contrib-bxt img {
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+
+}
+
+.imp-n {
+  margin-right: 5%;
+}
+
+.imp-t {
+  margin-left: 5%;
+}
+
+.imp-t h4, p {
+  width: 95%;
+  text-align: justify;
+}
+
+.reward-hd {
+  margin-top: 130px;
+  font-size: 34px;
+}
+
+.contrib-bxth {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.contrib-bxth-col-n {
+  width: 90%;
+  margin-right: 7%
+}
+
+.contrib-bxth-col-n img {
+  max-width: 100%;
+  height: 250px;
+  border-radius: 15px;
+
+}
+
+.contrib-bxth-col-t {
+  margin-top: 20px;
+  width: 95%;
+}
+
+.contrib-bxth-col-t h4 {
+  padding-bottom: 10px;
+}
+
+.contrib-bxth-col-t p {
+  padding-bottom: 50px;
+  width: 90%;
+}
+
+.pay {
+  width: 60px;
+  background: #84e6f4;
+  color: #0B1E3A;
+  height: 29px;
+  border: 0.5px solid #0B1E3A;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 3px;
+}
+
+
+.donate-txt input {
+  height: 30px;
+  width: 26%;
+  border: 1px solid #6f6f6f;
+  padding: 5px;
+  border-bottom: 1px solid #6f6f6f;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  /* Styles for small devices */
+  .contrib {
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  .contrib-text h1 {
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .contrib-text p {
+    width: 94%;
+    padding: 20px 0 30px;
+    text-align: justify;
+    margin-left: 3%;
+  }
+
+  .contrib-bxn {
+    width: 100%;
+    display: inline;
+  }
+
+  .contrib-bxn img {
+    width: 100%;
+  }
+
+  .contrib-bxn {
+    margin-left: 0;
+  }
+
+  .imp-hd {
+    margin-top: 50px;
+    font-size: 18px;
+  }
+
+  .contrib-bxt {
+    display: block;
+    margin-top: 20px;
+  }
+
+
+  .contrib-bxt p {
+    padding-bottom: 30px;
+  }
+
+  .contrib-bxt img {
+    width: 100%;
+
+  }
+
+  .imp-n {
+    margin-right: 0;
+  }
+
+  .imp-t {
+    margin-left: 0;
+  }
+
+  .reward-hd {
+    margin-top: 40px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .contrib-bxth {
+    display: block;
+    margin-top: 25px;
+  }
+
+  .contrib-bxth-col-n {
+    width: 100%;
+  }
+
+  .contrib-bxth-col-t {
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .donate-txt h4 {
+    font-size: smaller;
+    width: 50%;
+    text-align:justify;
+  }
+
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+
+  /* Styles for small to medium devices */
+
+  .contrib {
+    width: 90%;
+    margin: 60px auto;
+  }
+
+
+  .contrib-text h1 {
+    font-size: 34px;
+
+  }
+
+  .contrib-text p {
+    width: 90%;
+    padding-top: 14px;
+    font-size: 18px;
+    margin-left: 4%;
+    text-align: justify;
+  }
+
+  .contrib-bxn img {
+    width: 62%;
+  }
+
+  .imp-hd {
+    margin-top: 100px;
+    font-size: 30px;
+  }
+
+  .contrib-bxt img {
+    width: 310px;
+    height: 250px;
+  }
+
+  .reward-hd {
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+  .contrib-bxth {
+    margin-top: 40px;
+  }
+
+  .contrib-bxth-col-n {
+    width: 95%;
+    margin-right: 4%;
+  }
+
+
+  .contrib-bxth-col-t {
+    margin: 5px 0 0 30px;
+    width: 100%;
+  }
+
+  .donate-txt {
+
+    margin-top: -30px;
+  }
+}
+
+
+
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+
+  /* Styles for screens larger than 901px */
+  .contrib {
+    width: 90%;
+
+  }
+
+  .contrib-text p {
+    width: 95%;
+    font-size: 17px;
+    margin-left: 1%;
+  }
+
+  .contrib-bxn {
+    width: 85%;
+    margin-left: 8%;
+  }
+
+
+  .imp-hd {
+    margin-top: 100px;
+    font-size: 34px;
+  }
+
+  .contrib-bxt h4 {
+    padding-bottom: 10px;
+    font-size: larger;
+  }
+
+  .contrib-bxt img {
+    width: 380px;
+
+  }
+
+
+
+
+  .reward-hd {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .contrib-bxth {
+    margin-top: 30px;
+  }
+
+  .contrib-bxth-col-n img {
+    height: 240px;
+
+  }
+
+  .contrib-bxth-col-t {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+
+  .contrib-bxth-col-t p {
+    padding-bottom: 40px;
+    width: 100%;
+  }
+}

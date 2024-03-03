@@ -1,0 +1,52 @@
+
+.priv {
+  width: 80%;
+  margin: 80px auto;
+}
+
+.priv h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.date p{
+  font-size: smaller;
+
+}
+.priv h3 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+ul {
+  padding-left: 15px;
+}
+.priv p {
+  text-align: justify;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  /* Styles for small devices */ 
+  .priv {
+    margin: 60px auto;
+  }
+  .priv h1{
+    font-size: 26px;
+    margin:10px 0 30px;
+  }
+
+  .priv h3{
+    font-size: smaller;
+  }
+  .priv p{
+    font-size: smaller;
+    padding-top: 3px;
+  }
+
+  .date p{
+    font-size: x-small;
+  }
+}

@@ -1,0 +1,55 @@
+.terms {
+  width: 80%;
+  margin: 80px auto;
+}
+
+.terms h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.date p {
+  font-size: smaller;
+
+}
+
+.terms h3 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+.terms p {
+  text-align: justify;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  /* Styles for small devices */
+  .terms {
+    margin: 60px auto;
+  }
+
+  .terms h1 {
+    font-size: 22px;
+    margin: 10px 0 30px;
+  }
+
+  .terms h3 {
+    font-size: smaller;
+  }
+
+  .terms p {
+    font-size: smaller;
+    padding-top: 3px;
+  }
+
+  .date p {
+    font-size: x-small;
+  }
+}

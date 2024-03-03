@@ -1,0 +1,112 @@
+
+.exhib-hd h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.exhib {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+.exhib-gallery {
+  position: relative;
+  margin: 30px 0;
+}
+
+.exhib-gallery img {
+  width: 100%;
+  border: 10px solid rgba(55, 55, 55, 0.2);
+}
+
+.ex-ev {
+  width: 100%;
+  line-height: 20px;
+  font-size: 16px;
+}
+.ex-ev h2{
+  text-align: center;
+  margin: 80px 0 30px;
+  font-size: 24px;
+}
+
+.ex-ev-row {
+  margin:auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ex-ev-row h4{
+  padding:0 0 7px 5px;
+  margin-left: 15px;
+}
+.ex-ev-row p {
+  line-height: 25px;
+  font-weight: 400;
+  text-align: justify;
+  margin-left: 20px;
+}
+
+.ex-ev-row .col{
+ flex-basis: 33.3%;
+ padding-right: 40px;
+
+}
+
+.swiper {
+  width: 80%;
+  height: fit-content;
+}
+
+.swiper-slide img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.swiper-slide h4 {
+  margin-bottom: 6px;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+  color: rgb(197, 197, 197);
+
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background: rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width: 600px) {
+  /* Styles for small devices */
+  .exhib-hd h1 {
+    font-size: 30px;
+  }
+
+  .ex-ev h2{
+    margin-top: 50px;
+    font-size: 20px;
+  }
+
+  .ex-ev p{
+    font-size: smaller;
+  }
+  
+.ex-ev-row {
+ 
+  display: block;
+}
+
+.ex-ev-row h4{
+  padding:20px 10px 0 0 ;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+  color: transparent;
+}
+ }
